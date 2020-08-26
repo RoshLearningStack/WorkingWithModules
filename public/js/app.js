@@ -1,6 +1,7 @@
 // default import
 import getSessions from './sessionRepository.js';
-import sessionTemplate from './template.js';
+// named import
+import {sessionTemplate, errorMessage} from './template.js';
 
 function render() {
     var list = document.querySelector('#sessions');

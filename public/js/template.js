@@ -21,4 +21,4 @@ function sessionTemplate(sessions) {
 };
 
 // named export
-export {sessionTemplate as default, errorMessage};
+export {sessionTemplate, errorMessage};

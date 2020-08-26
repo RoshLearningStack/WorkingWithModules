@@ -26,4 +26,4 @@ function getSessions() {
     sessionURL};
 
 // aggregating modules
-// export {sessionTemplate} from './template.js';
+export {sessionTemplate} from './template.js';
