@@ -23,4 +23,7 @@ function getSessions() {
  export {// default export 
     getSessions as default, 
     // named export
-    sessionURL}
+    sessionURL};
+
+// aggregating modules
+export {sessionTemplate} from './template.js';
